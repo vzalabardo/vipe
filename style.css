@@ -321,6 +321,8 @@ Version:	1.0
 	padding: 30px 15px;
 	z-index:3;
 }
+
+
 .site-header .nav li a::before {
 	position: absolute;
 	content: "";
@@ -412,6 +414,17 @@ Version:	1.0
     animation: gradient 15s ease infinite;
 }
 
+.animated-gradient2 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    background: linear-gradient(-45deg, #3c5be7, #009fd8);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -450,6 +463,13 @@ Version:	1.0
 	color:#fff;
 	margin-top:20px;
 }
+
+.hero-header-content2 p {
+	text-align: left;
+	color:#fff;
+	margin-top:20px;
+}
+
 .hero-header h1 {
 	font-style: normal;
 	font-weight: 300;
@@ -2253,6 +2273,18 @@ Version:	1.0
     border: 2px solid #fff; /* Borde sólido blanco */
     border-radius: 20px; /* Bordes ligeramente redondeados */
     color: #fff; /* Color de texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    margin-right: 10px; /* Margen derecho */
+    text-decoration: none; /* Quitar subrayado de enlaces */
+    display: inline-block; /* Mostrar como bloque en línea */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+.crystal-btn2 {
+    background-color: #006DFE; /* Fondo transparente */
+    border: 2px solid #fff; /* Borde sólido blanco */
+    border-radius: 20px; /* Bordes ligeramente redondeados */
+    color: #fff !important; /* Color de texto blanco */
     padding: 10px 20px; /* Espaciado interno */
     margin-right: 10px; /* Margen derecho */
     text-decoration: none; /* Quitar subrayado de enlaces */
