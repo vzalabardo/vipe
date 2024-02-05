@@ -180,7 +180,7 @@
 					  
 				</div>
 				<div class="col-lg-3 col-md-6 col-12">
-					<div class="single-work">
+					<div class="single-work" onclick="window.location.href = 'Restauracion.html';" style="cursor: pointer; border: none; background: none;">
 						<div class="serial">
 							<img src="img/restaurante.jpg" alt="#" style="border-radius: 10px; width: 200px; height: 150px;">
 						</div>
@@ -190,7 +190,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="single-work last">
-						<div class="serial">
+						<div class="serial" onclick="window.location.href = 'Comercios.html';" style="cursor: pointer; border: none; background: none;">
 							<img src="img/comercio2.jpg" alt="#" style="border-radius: 10px; width: 200px; height: 150px;">
 						</div>
 						<h3 style="margin-top: 16px;">Comercios</h3>
@@ -199,7 +199,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="single-work last">
-						<div class="serial">
+						<div class="serial" onclick="window.location.href = 'Ocio.html';" style="cursor: pointer; border: none; background: none;">
 							<img src="img/ocio.jpg" alt="#" style="border-radius: 10px; width: 200px; height: 150px;">
 						</div>
 						<h3 style="margin-top: 16px;">Ocio</h3>
@@ -212,83 +212,113 @@
 	</section>
 	<!-- /End Work Area -->
 	
-	<!-- Start Services Area -->
-    <section class="services-area section" id="features">
-        <div class="container">
+
+	<!--Frequently asked questions start-->
+	<section id="faq" class="faq-section section">
+		<div class="container">
 			<div class="row">
-				<div class="col-lg-7 col-12">
-					<div class="info-media right">
-					   <img src="img/service-img1.svg" alt="Desktop and Mobile App">
-					</div>
-				</div>
-				<div class="col-lg-5 col-12">
-					<div class="info-text">
-					   <p class="short-title">Desktop and Mobile App</p>
-					   <h2 class="main-title">Plan and Manage</h2>
-					   <p class="des">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an expetenda consequat.</p>
-					   <div class="button">
-						  <a href="https://www.youtube.com/watch?v=BqI0Q7e4kbk" class="btn video-popup mfp-iframe">View video <i class="lni-play"></i></a>
-						  <a href="#" class="btn btn-primary">See services</a>
-					   </div>
+				<div class="col-12">
+					<div class="section-title">
+						<h2>Frequently asked questions</h2>
+						<p>Encuentra respuestas a tus preguntas aquí.</p>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-5 col-12">
-					<div class="info-text">
-					   <p class="short-title">Desktop and Mobile App</p>
-					   <h2 class="main-title">Build and Deploy</h2>
-					   <p class="des">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an expetenda consequat.</p>
-					   <div class="button">
-						  <a href="https://www.youtube.com/watch?v=BqI0Q7e4kbk" class="btn video-popup mfp-iframe">View video <i class="lni-play"></i></a>
-						  <a href="#" class="btn btn-primary">See services</a>
-					   </div>
-					</div>
-				</div>
-				<div class="col-lg-7 col-12">
-					<div class="info-media right">
-					   <img src="img/service-img2.svg" alt="Desktop and Mobile App">
-					</div>
-				</div>
-			</div>
-        </div>
-    </section>
-    <!-- End Services Area -->
-	
-	<!-- Start Counter Section-->
-	<section class="product-counter-section">
-		<div class="product-counter-wrap">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-12">
-						<div class="counter-content-wrap">
-							<i class="lni lni-rocket"></i>
-							<h6 class="counter-title"><strong>Trusted by 4000+</strong></h6>
-							<p class="counter-text">High performing team worldwide</p>
+				<div class="col-12">
+					<div id="accordion" class="mt-4 faq-container">
+						<!-- FAQ para Agencias Inmobiliarias -->
+						<div class="simple-card">
+							<div class="card-header" id="headingOne">
+								<h5 class="mb-0">
+									<button class="btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										<span class="arrow-container"></span> Preguntas para Usuarios
+									</button>
+								</h5>
+							</div>
+							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="card-body">
+									<!-- Preguntas para Agencias Inmobiliarias -->
+									<ul>
+										<li>
+											<strong>Pregunta 1:</strong> ¿Cómo puedo obtener los QR para colocar en mis propiedades?
+											<div class="collapse" id="respuesta1">
+												<div class="card-body">
+													La respuesta a la pregunta 1.
+												</div>
+											</div>
+										</li>
+										<li>
+											<strong>Pregunta 2:</strong> ¿Qué beneficios obtengo al contratar el servicio VIPE?
+											<div class="collapse" id="respuesta2">
+												<div class="card-body">
+													La respuesta a la pregunta 2.
+												</div>
+											</div>
+										</li>
+										<li>
+											<strong>Pregunta 3:</strong> ¿Cómo funciona el proceso de contratación del servicio VIPE para agencias inmobiliarias?
+											<div class="collapse" id="respuesta3">
+												<div class="card-body">
+													La respuesta a la pregunta 3.
+												</div>
+											</div>
+										</li>
+										<!-- Agrega más preguntas según sea necesario -->
+									</ul>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-6 col-12">
-						<ul class="counter-list list-inline text-right">
-							<li>
-								<span class="number count">1000</span>
-								<span class="title">Happy Clients</span>
-							</li>
-							<li>
-								<span class="number count">4400</span>
-								<span class="title">Wining Award</span>
-							</li>
-							<li>
-								<span class="number count">5000</span>
-								<span class="title">Team Member</span>
-							</li>
-						</ul>
+						<!-- FAQ para Negocios Locales -->
+						<div class="simple-card">
+							<div class="card-header" id="headingTwo">
+								<h5 class="mb-0">
+									<button class="btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										<span class="arrow-container"></span> Preguntas para Negocios
+									</button>
+								</h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+								<div class="card-body">
+									<!-- Preguntas para Negocios Locales -->
+									<ul>
+										<li>
+											<strong>Pregunta 1:</strong> ¿Cómo puedo hacer que mi negocio aparezca en la aplicación?
+											<div class="collapse" id="respuesta4">
+												<div class="card-body">
+													La respuesta a la pregunta 1.
+												</div>
+											</div>
+										</li>
+										<li>
+											<strong>Pregunta 2:</strong> ¿Cuáles son los beneficios de contratar el servicio VIPE para mi negocio?
+											<div class="collapse" id="respuesta5">
+												<div class="card-body">
+													La respuesta a la pregunta 2.
+												</div>
+											</div>
+										</li>
+										<li>
+											<strong>Pregunta 3:</strong> ¿Cómo puedo mejorar la visibilidad de mi negocio en la aplicación?
+											<div class="collapse" id="respuesta6">
+												<div class="card-body">
+													La respuesta a la pregunta 3.
+												</div>
+											</div>
+										</li>
+										<!-- Agrega más preguntas según sea necesario -->
+									</ul>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- /End Counter Section-->
-		
+	
+    <!--Frequently asked questions end-->
+
 	<!-- Start Testimonials Section -->
 	<section id="testimonials" class="section testimonials">
 		<div class="container">
@@ -355,265 +385,7 @@
 	</section>
 	<!-- /End Testimonials Section -->
 		
-	<!-- Start Team -->
-	<section id="team" class="team section">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="section-title">
-						<h2>Our awesome Team</h2>
-						<p>Business consulting excepteur sint occaecat cupidatat consulting non proident, sunt in culpa qui officia deserunt laborum market. </p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<!-- Single Team -->
-				<div class="col-lg-3 col-md-6 col-12">
-					<div class="single-team">
-						<!-- Image -->
-						<div class="image">
-							<img src="img/team/team1.jpg" alt="#">
-						</div>
-						<!-- End Image -->
-						<div class="info-head">
-							<!-- Info Box -->
-							<div class="info-box">
-								<h4 class="name"><a href="#">Dahlia Moore</a></h4>
-								<span class="designation">Senior Manager</span>
-							</div>
-							<!-- End Info Box -->
-							<!-- Social -->
-							<div class="social-links">
-								<ul class="social">
-									<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-behance"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								</ul>
-							</div>
-							<!-- End Social -->
-						</div>
-					</div>
-				</div>	
-				<!-- End Single Team -->
-				<div class="col-lg-3 col-md-6 col-12">
-					<div class="single-team">
-						<!-- Image -->
-						<div class="image">
-							<img src="img/team/team2.jpg" alt="#">
-						</div>
-						<!-- End Image -->
-						<div class="info-head">
-							<!-- Info Box -->
-							<div class="info-box">
-								<h4 class="name"><a href="#">Jhone digo</a></h4>
-								<span class="designation">Markeitng</span>
-							</div>
-							<!-- End Info Box -->
-							<!-- Social -->
-							<div class="social-links">
-								<ul class="social">
-									<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-behance"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								</ul>
-							</div>
-							<!-- End Social -->
-						</div>
-					</div>
-				</div>	
-				<!-- End Single Team -->
-				<div class="col-lg-3 col-md-6 col-12">
-					<div class="single-team">
-						<!-- Image -->
-						<div class="image">
-							<img src="img/team/team3.jpg" alt="#">
-						</div>
-						<!-- End Image -->
-						<div class="info-head">
-							<!-- Info Box -->
-							<div class="info-box">
-								<h4 class="name"><a href="#">Zara tingo</a></h4>
-								<span class="designation">Web Developer</span>
-							</div>
-							<!-- End Info Box -->
-							<!-- Social -->
-							<div class="social-links">
-								<ul class="social">
-									<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-behance"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								</ul>
-							</div>
-							<!-- End Social -->
-						</div>
-					</div>
-				</div>	
-				<!-- End Single Team -->
-				<div class="col-lg-3 col-md-6 col-12">
-					<div class="single-team">
-						<!-- Image -->
-						<div class="image">
-							<img src="img/team/team4.jpg" alt="#">
-						</div>
-						<!-- End Image -->
-						<div class="info-head">
-							<!-- Info Box -->
-							<div class="info-box">
-								<h4 class="name"><a href="#">David Zone</a></h4>
-								<span class="designation">SEO Expert</span>
-							</div>
-							<!-- End Info Box -->
-							<!-- Social -->
-							<div class="social-links">
-								<ul class="social">
-									<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-behance"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								</ul>
-							</div>
-							<!-- End Social -->
-						</div>
-					</div>
-				</div>	
-				<!-- End Single Team -->
-			</div>	
-		</div>
-	</section>
-	<!--/ End Team Area -->
-	
-	<!--Frequently asked questions start-->
-    <section id="faq" class="faq-section section">
-         <div class="container">
-			<div class="row">
-					<div class="col-12">
-						<div class="section-title">
-							<h2>Frequently asked questions</h2>
-							<p>Business consulting excepteur sint occaecat cupidatat consulting non proident, sunt in culpa qui officia deserunt laborum market. </p>
-						</div>
-					</div>
-				</div>
-			<div class="row">
-				<div class="col-12">
-					<div id="accordion" class="mt-4 faq-container">
-						<div class="simple-card">
-						   <div class="card-header" id="headingOne">
-							  <h5 class="mb-0">
-								 <button class=" btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-								 <span class="arrow-container"></span> Reque insolens in vel?
-								 </button>
-							  </h5>
-						   </div>
-						   <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-							  <div class="card-body">
-								 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							  </div>
-						   </div>
-						</div>
-						<div class="simple-card">
-						   <div class="card-header" id="headingTwo">
-							  <h5 class="mb-0">
-								 <button class=" btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-								 <span class="arrow-container"></span> Vis rebum error graecis ea, id sit postea accusamus?
-								 </button>
-							  </h5>
-						   </div>
-						   <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
-							  <div class="card-body card-with-button">
-								 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-								 <a href="#" class=" btn">Go to documentation</a>
-							  </div>
-						   </div>
-						</div>
-						<div class="simple-card">
-						   <div class="card-header" id="headingThree">
-							  <h5 class="mb-0">
-								 <button class=" btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								 <span class="arrow-container"></span> Lorem repudiandae ne nec?
-								 </button>
-							  </h5>
-						   </div>
-						   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-							  <div class="card-body">
-								 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							  </div>
-						   </div>
-						</div>
-					</div>
-				</div>
-			</div>
-         </div>
-    </section>
-    <!--Frequently asked questions end-->
-	
-	<!-- Start Blog Area -->
-	<section class="blog section" id="blog">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="section-title">
-						<h2>Read Our Blog</h2>
-						<p>Business consulting excepteur sint occaecat cupidatat consulting non proident, sunt in culpa qui officia deserunt laborum market. </p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6 col-12">
-					<!-- Single Blog -->
-					<div class="single-news">
-						<div class="news-head">
-							<img src="img/blog1.jpg" alt="#">
-						</div>
-						<div class="news-body">
-							<div class="news-content">
-								<div class="date">22 Aug, 2020</div>
-								<h2><a href="blog-single-sidebar.html">We have annnocuced our new product.</a></h2>
-								<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Blog -->
-				</div>
-				<div class="col-lg-4 col-md-6 col-12">
-					<!-- Single Blog -->
-					<div class="single-news">
-						<div class="news-head">
-							<img src="img/blog2.jpg" alt="#">
-						</div>
-						<div class="news-body">
-							<div class="news-content">
-								<div class="date">15 Jul, 2020</div>
-								<h2><a href="blog-single-sidebar.html">Top five way for learning web development.</a></h2>
-								<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Blog -->
-				</div>
-				<div class="col-lg-4 col-md-6 col-12">
-					<!-- Single Blog -->
-					<div class="single-news">
-						<div class="news-head">
-							<img src="img/blog3.jpg" alt="#">
-						</div>
-						<div class="news-body">
-							<div class="news-content">
-								<div class="date">05 Jan, 2020</div>
-								<h2><a href="blog-single-sidebar.html">We provide highly business soliutions.</a></h2>
-								<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Blog -->
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Blog Area -->
-	
+
 	<!--Get Started start-->
     <section id="get-started" class="get-started section">
         <div class="container">
