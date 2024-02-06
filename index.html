@@ -66,27 +66,29 @@
 						<div class="col-lg-2 col-md-2 col-12">
 							<!-- Logo -->
 							<div class="logo">
-								<h1 style="color: aliceblue;"><b>VIPE</b></h1>
+								<h1 onclick="window.location.href = 'index.html';" style="color: aliceblue;"><b>VIPE</b></h1>
 							</div>
 							<!-- End Logo -->
 							<div class="mobile-nav"></div>
 						</div>
 						<div class="col-lg-10 col-md-10 col-12">
 							<!-- Main Menu -->
-							<div class="main-menu">
+							<div class="main-menu" style="margin-top:10px">	
 								<nav class="navigation ">
 									<ul class="nav menu">
 										<li class="active"><a href="home">Inicio</a></li>
 										<li><a href="#about-us">Sobre VIPE</a></li>
-										<li><a href="#features">Agencias</a></li>
-										<li><a href="#pricing">Servicios de Marketing </a></li>
-										<li><a href="#faq">Faq </a></li>
-										<li><a href="#contact-us">Contact Us</a></li>
+										<li><a  onclick="window.location.href = 'Propiedades.html';" href="#features">Agencias</a></li>
+										<li><a href="#testimonials">Servicios de Marketing </a></li>
+										<li><a href="#faq">Preguntas Frecuentes </a></li>
+										<li><a  onclick="window.location.href = 'contactus.html';" href="#contact-us">Contacto</a></li>
 									</ul>
 								</nav>
 							</div>
 							<!--/ End Main Menu -->
-							<a href="#" class="button" style="color: rgb(0, 255, 170)">Get Started</a>
+							<ul class="nav menu">
+								<a href="#about-us" class="button" style="color: rgb(212, 221, 218)">Empezemos</a>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -106,8 +108,8 @@
 							</b></h1>
 
 							<div class="" style="margin-top: 40px;">
-								<a href="https://www.youtube.com/watch?v=BqI0Q7e4kbk" class="crystal-btn">Infórmate </a>
-								<a href="#" class="crystal-btn">Get Start</a>
+								<a class="crystal-btn" style="color: aliceblue;">Infórmate </a>
+								<a href="#" class="crystal-btn">Empezar</a>
 							</div>
 						</div>
 					</div>
@@ -119,9 +121,8 @@
 				</div>
 			</div>
 		</section>
-	</div>
-	
     <!--Hero header end-->
+	</div>
 	
 	<!-- start Brands Area-->
     <div class="brands" style="margin-top: 50px;">
@@ -163,7 +164,8 @@
 					<div class="section-title">
 						<h2>Conócenos un poco más</h2>
 						<h5 style="color: rgb(148, 146, 146);">Vipe es un software que permite a los negocios
-							encontrar clientes de un target más específico </h5>
+							encontrar clientes de un target más específico.</h5>
+						<h5 style="color: rgb(148, 146, 146); margin-top: 16px;">Selecciona que tipo de negocio eres para empezar</h5>
 					</div>
 				</div>
 			</div>
@@ -219,104 +221,78 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="section-title">
-						<h2>Frequently asked questions</h2>
+						<h2>Preguntas Frecuentes</h2>
 						<p>Encuentra respuestas a tus preguntas aquí.</p>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-12">
-					<div id="accordion" class="mt-4 faq-container">
-						<!-- FAQ para Agencias Inmobiliarias -->
-						<div class="simple-card">
-							<div class="card-header" id="headingOne">
-								<h5 class="mb-0">
-									<button class="btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-										<span class="arrow-container"></span> Preguntas para Usuarios
-									</button>
-								</h5>
-							</div>
-							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-								<div class="card-body">
-									<!-- Preguntas para Agencias Inmobiliarias -->
-									<ul>
-										<li>
-											<strong>Pregunta 1:</strong> ¿Cómo puedo obtener los QR para colocar en mis propiedades?
-											<div class="collapse" id="respuesta1">
-												<div class="card-body">
-													La respuesta a la pregunta 1.
-												</div>
-											</div>
-										</li>
-										<li>
-											<strong>Pregunta 2:</strong> ¿Qué beneficios obtengo al contratar el servicio VIPE?
-											<div class="collapse" id="respuesta2">
-												<div class="card-body">
-													La respuesta a la pregunta 2.
-												</div>
-											</div>
-										</li>
-										<li>
-											<strong>Pregunta 3:</strong> ¿Cómo funciona el proceso de contratación del servicio VIPE para agencias inmobiliarias?
-											<div class="collapse" id="respuesta3">
-												<div class="card-body">
-													La respuesta a la pregunta 3.
-												</div>
-											</div>
-										</li>
-										<!-- Agrega más preguntas según sea necesario -->
-									</ul>
-								</div>
-							</div>
+
+					<div class="accordion">
+						<input type="checkbox" id="accordion1">
+						<label for="accordion1">Preguntas para Usuarios</label>
+						<div class="content">
+						  <ul>
+							<li class="question">
+							  <input type="checkbox" id="question1">
+							  <label for="question1">¿Cómo puedo obtener los QR para colocar en mis propiedades?</label>
+							  <div class="answer">
+								<p>Respuesta a la pregunta 1...</p>
+							  </div>
+							</li>
+							<li class="question">
+							  <input type="checkbox" id="question2">
+							  <label for="question2">¿Qué beneficios obtengo al contratar el servicio VIPE?</label>
+							  <div class="answer">
+								<p>Respuesta a la pregunta 2...</p>
+							  </div>
+							</li>
+							<li class="question">
+							  <input type="checkbox" id="question3">
+							  <label for="question3">¿Cómo funciona el proceso de contratación del servicio VIPE para agencias inmobiliarias?</label>
+							  <div class="answer">
+								<p>Respuesta a la pregunta 3...</p>
+							  </div>
+							</li>
+						  </ul>
 						</div>
-						<!-- FAQ para Negocios Locales -->
-						<div class="simple-card">
-							<div class="card-header" id="headingTwo">
-								<h5 class="mb-0">
-									<button class="btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-										<span class="arrow-container"></span> Preguntas para Negocios
-									</button>
-								</h5>
-							</div>
-							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-								<div class="card-body">
-									<!-- Preguntas para Negocios Locales -->
-									<ul>
-										<li>
-											<strong>Pregunta 1:</strong> ¿Cómo puedo hacer que mi negocio aparezca en la aplicación?
-											<div class="collapse" id="respuesta4">
-												<div class="card-body">
-													La respuesta a la pregunta 1.
-												</div>
-											</div>
-										</li>
-										<li>
-											<strong>Pregunta 2:</strong> ¿Cuáles son los beneficios de contratar el servicio VIPE para mi negocio?
-											<div class="collapse" id="respuesta5">
-												<div class="card-body">
-													La respuesta a la pregunta 2.
-												</div>
-											</div>
-										</li>
-										<li>
-											<strong>Pregunta 3:</strong> ¿Cómo puedo mejorar la visibilidad de mi negocio en la aplicación?
-											<div class="collapse" id="respuesta6">
-												<div class="card-body">
-													La respuesta a la pregunta 3.
-												</div>
-											</div>
-										</li>
-										<!-- Agrega más preguntas según sea necesario -->
-									</ul>
-								</div>
-							</div>
+					  </div>
+					  
+					  <div class="accordion">
+						<input type="checkbox" id="accordion2">
+						<label for="accordion2">Preguntas para Negocios</label>
+						<div class="content">
+						  <ul>
+							<li class="question">
+							  <input type="checkbox" id="question4">
+							  <label for="question4">¿Cómo puedo hacer que mi negocio aparezca en la aplicación?</label>
+							  <div class="answer">
+								<p>Respuesta a la pregunta 4...</p>
+							  </div>
+							</li>
+							<li class="question">
+							  <input type="checkbox" id="question5">
+							  <label for="question5">¿Cuáles son los beneficios de contratar el servicio VIPE para mi negocio?</label>
+							  <div class="answer">
+								<p>Respuesta a la pregunta 5...</p>
+							  </div>
+							</li>
+							<li class="question">
+							  <input type="checkbox" id="question6">
+							  <label for="question6">¿Cómo puedo mejorar la visibilidad de mi negocio en la aplicación?</label>
+							  <div class="answer">
+								<p>Respuesta a la pregunta 6...</p>
+							  </div>
+							</li>
+						  </ul>
 						</div>
-					</div>
+					  </div>
+					  
 				</div>
 			</div>
 		</div>
-	</section>
-	
+	</section>	
     <!--Frequently asked questions end-->
 
 	<!-- Start Testimonials Section -->
@@ -537,3 +513,55 @@
 	<script src="js/active.js"></script>
 </body>
 </html>
+<style>
+	.accordion {
+	  margin-bottom: 20px;
+	}
+	.accordion input[type="checkbox"] {
+	  display: none;
+	}
+	.accordion label {
+	  display: block;
+	  cursor: pointer;
+	  padding: 15px;
+	  background-color: #f4f4f4;
+	  border-radius: 5px;
+	  margin-bottom: 10px;
+	  font-size: 16px;
+	  line-height: 1.5;
+	}
+	.accordion label:hover {
+	  background-color: #e0e0e0;
+	}
+	.accordion label::after {
+	  content: "\02795";
+	  font-size: 0.8em;
+	  float: right;
+	}
+	.accordion input[type="checkbox"]:checked + label::after {
+	  content: "\2796";
+	}
+	.accordion .content {
+	  max-height: 0;
+	  overflow: hidden;
+	  transition: max-height 0.2s ease-out;
+	}
+	.accordion input[type="checkbox"]:checked ~ .content {
+	  max-height: 1000px;
+	  transition: max-height 0.35s ease-in;
+	}
+	.answer {
+	  padding-left: 20px;
+	  display: none;
+	}
+	.question input[type="checkbox"]:checked ~ .answer {
+	  display: block;
+	}
+  </style>
+
+<script>
+	// Ocultar todas las respuestas al cargar la página
+	document.querySelectorAll('.accordion input[type="checkbox"]').forEach(function(checkbox) {
+	  checkbox.checked = false;
+	});
+  </script>

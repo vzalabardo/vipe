@@ -1,8 +1,8 @@
 /* =====================================
-Template Name: Appkit
+Template Name: VIPE
 Author Name: Naimur Rahman
 Author URI: http://wpthemesgrid.com/
-Description: Appkit - Creative App & SAAS Landing HTML5 Template.
+Description: VIPE.
 Version:	1.0
 ========================================*/
 /*======================================
@@ -381,6 +381,7 @@ Version:	1.0
 	transition:all 0.4s ease;
 	animation: fadeInDown 0.5s both 0.5s;
 	box-shadow:0px 0px 13px #00000054;
+	background-color: #006DFE;
 }
 /*======================================
    End Header CSS
